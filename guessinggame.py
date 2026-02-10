@@ -1,13 +1,6 @@
 
 import random
 
-
-""" list = [1,2,3,4,5,6,7,8,9,10] """
-""" x = int(input("guess a number from 1-10")) """
-""" num = random.choice(list) """
-""" while x != num: """
-
-
 guess_history = []
 number = random.randint(1,10)
 x = int(input("guess a number from 1-10"))
